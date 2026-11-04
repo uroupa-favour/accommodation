@@ -1,0 +1,17 @@
+{
+  "name": "oroupa-campus-accommodation",
+  "version": "1.0.0",
+  "description": "Full-Stack Online Campus Accommodation Management System",
+  "private": true,
+  "main": "backend/src/server.js",
+  "scripts": {
+    "install:backend": "npm --prefix backend install",
+    "build": "npm --prefix backend install",
+    "start": "node backend/src/server.js",
+    "seed": "node database/seedRunner.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
